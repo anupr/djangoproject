@@ -1,0 +1,6 @@
+{% load i18n %}
+{% trans "Activate account at" %} {{ site.name }}:
+
+{% block content %}
+Thanks! Your account has be activated. Please <a href="{% url auth_login %}">login to continue</a>
+{% endblock %}
